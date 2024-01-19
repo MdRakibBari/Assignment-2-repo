@@ -1,0 +1,60 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* nav-bar-section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-others {
+    display: flex;
+    margin-right: 130px;
+    margin-top: 0px;
+}
+.title-others > h2 {
+    padding-right: 40px;
+}
+
+.main-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.orange-title {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.title-and-image {
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 0px;
+}
+
+.nav-title {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.small-text {
+    color: var(--Dark-02, #424247);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo{
+    margin-right: 10px;
+}
