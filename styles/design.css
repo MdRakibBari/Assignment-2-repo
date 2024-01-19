@@ -14,7 +14,8 @@ nav {
     margin-right: 130px;
     margin-top: 0px;
 }
-.title-others > h2 {
+
+.title-others>h2 {
     padding-right: 40px;
 }
 
@@ -55,6 +56,211 @@ nav {
     font-weight: 400;
     line-height: normal;
 }
-.logo{
+
+.logo {
     margin-right: 10px;
+}
+
+/* banner section  */
+.banner-main-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.banner-sub-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.banner-text {
+    height: 500px;
+    padding-top: 50px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 85%);
+    border-radius: 16px;
+    /* padding-bottom: -70px; */
+
+
+}
+
+.banner-section {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 1100px;
+    margin: auto;
+    background-size: contain;
+    margin-top: 30px;
+}
+
+.button-pro {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    padding: 10px 35px 10px 35px;
+
+}
+
+.banner-option-size {
+    padding: 10px 30px 10px 10px;
+    border: 0;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.banner-option {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 65%;
+    height: 60px;
+    /* padding-top: 20px; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+/* mountain section */
+.mountain-main-text {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.m-s-t {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.mountain-main-image{
+    width: 400px;
+}
+.mountain-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/* places section  */
+.place-text{
+    text-align: center;
+    margin-top: 100px;
+}
+.first-two{
+    position: relative;
+
+}
+
+.places-name{  
+   position: absolute;
+   top: 0;
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    .title-and-image {
+        margin-left: 15px;
+    }
+
+    .title-others {
+        margin-right: 0px;
+    }
+
+    .banner-section {
+        width: 95%;
+    }
+
+    .banner-text {
+        height: 415px;
+    }
+
+    .banner-option {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .title-others {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .title-others>h2 {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .title-and-image {
+        margin-left: 0px;
+    }
+
+    .banner-section {
+        width: 90%;
+        height: 483px;
+        background-size: cover;
+    }
+
+    .banner-main-title {
+        font-size: 22px;
+    }
+
+    .banner-text {
+        padding-top: 30px;
+        height: 483px;
+    }
+
+    .banner-sub-title {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .banner-option {
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 0px;
+        width: 80%;
+        height: 280px;
+    }
+
+    .put {
+        padding-right: 100px;
+    }
+
+    .button-pro {
+        padding-left: 70px;
+        padding-right: 70px;
+
+    }
+    .mountain-section{
+        flex-direction: column;
+    }
 }
