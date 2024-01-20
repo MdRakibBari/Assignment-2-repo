@@ -154,10 +154,12 @@ nav {
     font-weight: 400;
     line-height: 26px;
 }
-.mountain-main-image{
+
+.mountain-main-image {
     width: 400px;
 }
-.mountain-section{
+
+.mountain-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,19 +168,223 @@ nav {
 
 
 /* places section  */
-.place-text{
+.place-text {
     text-align: center;
     margin-top: 100px;
 }
-.first-two{
+
+.last-column-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.last-column {
     position: relative;
+}
+
+.last-column-text {
+    /* position: absolute; */
+    text-align: center;
+    margin-top: -210px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.second-column {
+    margin-top: 110px;
+}
+
+.third-column {
+    margin-top: 110px;
+}
+
+.column2 {
+    margin-top: 110px;
+}
+
+.service-container {
+    margin-top: 200px;
+}
+
+.main-service-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.sub-service-title {
+    text-align: center;
+    margin-top: 0;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.carts1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 500px;
+    padding: 20px;
+}
+
+.carts2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 500px;
+    padding: 20px;
+}
+
+.carts3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 25px;
 
 }
 
-.places-name{  
-   position: absolute;
-   top: 0;
+.carts1>h2,
+.carts2>h2,
+.carts3>h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
 }
+
+.two-cart-here {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.three-cart-service {
+    margin-top: 50px;
+}
+
+.last-img {
+    width: 100%;
+}
+
+.icon-deal {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.deal-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.p-text {
+    margin-right: 25px;
+}
+
+.deals-main-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals-sub-title {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.deals-container {
+    margin-top: 150px;
+}
+
+
+.first-deal>h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.first-deal {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.orange-tag {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.orange-button {
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 25px;
+
+}
+
+.deal-text-container {
+    width: 500px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    margin-top: -420px;
+    margin-left: 600px;
+    position: absolute;
+    padding: 20px 30px 20px 20px;
+}
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:992px) and (max-width:1200px) {
 
@@ -260,7 +466,41 @@ nav {
         padding-right: 70px;
 
     }
-    .mountain-section{
+
+    .mountain-section {
         flex-direction: column;
     }
+
+    .mountain-main-image {
+        width: 100%;
+    }
+
+    .last-column-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        gap: 0px;
+    }
+
+    .last-img {
+        width: 400px;
+        height: 300px;
+        margin-top: 95px;
+    }
+
+    .last-column-text {
+        margin-top: -200px;
+    }
+
+    .two-cart-here {
+        flex-direction: column;
+    }
+
+    .carts1,
+    .carts2,
+    .carts3 {
+        width: 88%;
+    }
+
 }
