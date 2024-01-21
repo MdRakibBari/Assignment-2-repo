@@ -118,10 +118,22 @@ nav {
     padding: 10px 30px 10px 10px;
     border: 0;
     border-radius: 8px;
+    background: #FFF;
     color: rgba(19, 19, 24, 0.50);
     font-family: Mulish;
     font-size: 14px;
     font-weight: 400;
+}
+
+.arekts-notun-somossa {
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 30px 10px 10px;
+    margin-top: 15px;
 }
 
 .banner-option {
@@ -378,15 +390,186 @@ nav {
     padding: 20px 30px 20px 20px;
 }
 
+.aktu-thik-kortasi {
+    margin-left: 150px;
+}
+
+.deal-image {
+    width: 90%;
+}
+
+.button-div {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Get Lost List  */
+.video {
+    border-radius: 16px;
+    width: 600px;
+}
+
+.lost-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 100px;
+}
+
+input {
+    display: block;
+    margin-bottom: 16px;
+    padding: 16px 251px 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    margin-top: 24px;
+}
+
+form h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+form p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+form {
+    background: #FFF;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 440px;
+    height: 365px;
+    padding: 20px 40px 40px 40px;
+}
+
+.form-er-button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+    padding: 14px 165px 14px 165px;
+    margin-top: 15px;
+}
+
+.travel-dis-container {
+    position: relative;
+
+}
+
+.form-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.travel-dis-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 0px 50px 0px 50px;
+    transform: rotate(-35deg) translateY(15px);
+
+}
+
+.travel-dis-text h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.travel-dis-text h1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 0px;
+}
+
+.footer-container {
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    height: 500px;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 110px;
+}
+
+.footer-image {
+    width: 40px;
+    height: 40px;
+
+}
+
+.footer-main-title {
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+    padding-left: 16px;
+}
+
+.again-yellow {
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-para {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -10px;
+}
+
+.footer-icon {
+    text-align: center;
+}
+
+.footer-icon i {
+    margin-right: 20px;
+}
+
+.line {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1000px;
+}
 
 
 
 
 
 
-
-
-@media screen and (min-width:992px) and (max-width:1200px) {
+@media screen and (min-width:992px) and (max-width:1250px) {
 
     .title-and-image {
         margin-left: 15px;
@@ -407,7 +590,34 @@ nav {
     .banner-option {
         width: 80%;
     }
-
+    .lost-list-container{
+        flex-direction: column;
+    }
+    .form-container{
+        flex-direction: column;
+    }
+    .form-flex-container {
+        display: flex;
+        justify-content: center;
+    }
+    .travel-image{
+       width: 80%;
+    }
+    .travel-dis-container{
+        display: flex;
+        justify-content: center;
+    }
+    .travel-dis-text{
+        top: 57%;
+        left: 55%;
+    }
+    .deal-text-container{
+        margin-top: -365px;
+        margin-left: 250px;
+    }
+    .line{
+        width: 800px;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -503,4 +713,84 @@ nav {
         width: 88%;
     }
 
+    .deal-image {
+        width: 100%;
+        height: 500px;
+        /* flex-shrink: 0; */
+        /* margin-left: 20px; */
+        /* height: 500px; */
+        /* background-size: cover; */
+    }
+
+    .deal-text-container {
+        margin-left: 20%;
+        width: 303px;
+        height: 405px;
+        padding: 0;
+        position: relative;
+    }
+
+    .deal-icon {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .spoon {
+        display: none;
+    }
+
+    .lost-list-container {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .video {
+        border-radius: 16px;
+        width: 100%;
+    }
+
+    .form-container {
+        flex-direction: column;
+        /* margin: auto; */
+    }
+
+    input {
+        padding-right: 120px;
+    }
+
+    form {
+        width: 315px;
+    }
+
+    .form-flex-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-er-button {
+        padding: 0px;
+        padding: 16px 100px;
+    }
+
+    .travel-image {
+        width: 100%;
+    }
+
+    .travel-dis-text {
+        transform: rotate(-15deg) translateX(5px);
+        padding: 10px;
+    }
+
+    .travel-dis-text h3 {
+        font-size: 16px;
+    }
+
+    .travel-dis-text h1 {
+        font-size: 22px;
+    }
+
+    .line {
+        width: 80%;
+    }
 }
