@@ -723,7 +723,7 @@ form {
     }
 
     .deal-text-container {
-        margin-left: 20%;
+        margin-left: 10%;
         width: 303px;
         height: 405px;
         padding: 0;
@@ -778,7 +778,7 @@ form {
     }
 
     .travel-dis-text {
-        transform: rotate(-15deg) translateX(5px);
+        transform: rotate(-30deg) translateX(5px) translateY(10px);
         padding: 10px;
     }
 
